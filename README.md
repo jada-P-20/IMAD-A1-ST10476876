@@ -20,13 +20,15 @@ This Android app provides simple social interaction suggestions based on the tim
  ## 3. Handling user input ##
  
      <img width="648" height="140" alt="Screenshot 2026-03-30 072410" src="https://github.com/user-attachments/assets/3778c5e0-fd3c-4c83-b43e-268908bcba07" />
+     
 * Triggered when the user presses “Enter” or submits input
 * Converts input to lowercase and trims spaces
 * Calls a function to generate a suggestion
 
 ##  4. Suggestion logic ##
 
-<img width="869" height="271" alt="Screenshot 2026-03-30 072721" src="https://github.com/user-attachments/assets/898aae6f-7069-4196-a3db-e217a6b51a2a" />
+<img width="882" height="332" alt="Screenshot 2026-03-30 184603" src="https://github.com/user-attachments/assets/fd077691-bd5a-4a7e-98c1-2e3efd610485" />
+
      * Uses a when statement to match input
      * Returns a relevant social suggestion
      * Handles invalid input with a fallback message
